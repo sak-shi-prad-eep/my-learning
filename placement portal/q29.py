@@ -1,0 +1,5 @@
+string=input()
+str1=string.rsplit("/",1)
+print(str1[0])
+str2=string.rsplit("-",1)
+print(str2[0])

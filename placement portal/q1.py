@@ -1,0 +1,11 @@
+name=input()
+eventype=input()
+people=int(input())
+paid=input()
+money=float(input())
+
+print(f"Event Name : {name}")
+print(f"Event Type : {eventype}")
+print(f"Expected Count : {people}")
+print(f"Paid Entry : {paid}")
+print(f"Projected Expense : {money:.1f}L")
